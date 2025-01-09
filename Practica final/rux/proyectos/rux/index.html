@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -10,8 +11,8 @@
 /* Estilo del encabezado */
 header {
 display: flex;
-justify-content: center; /* Centrar contenido horizontalmente */
-align-items: center; /* Centrar contenido verticalmente */
+justify-content: center;
+align-items: center;
 background-color: #ffffff;
 padding: 20px 60px;
 box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
@@ -20,23 +21,23 @@ box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 
 .logo {
 font-family: 'Roboto', sans-serif;
-font-size: 1.5rem; /* Tamaño reducido del título */
-font-weight: bold; /* Peso fuerte */
+font-size: 1.5rem;
+font-weight: bold;
 color: black;
-text-align: center; /* Texto centrado */
-margin: 0; /* Sin margen extra */
-text-decoration: none; /* Quitar subrayado del enlace */
+text-align: center;
+margin: 0;
+text-decoration: none;
 }
 
 
 .logo:hover {
-color: #555; /* Cambia de color al pasar el cursor */
+color: #555;
 }
 
 
-/* Estilo para el texto descriptivo */
+/* Estilo para la sección de información sobre Rux */
 #about-rux {
-padding: 40px 20px; /* Espaciado alrededor del texto */
+padding: 40px 20px;
 max-width: 800px;
 margin: 0 auto;
 text-align: center;
@@ -51,21 +52,21 @@ color: #333;
 }
 
 
-/* Estilo para la galería */
+/* Estilo para la galería de imágenes */
 #gallery {
 display: flex;
 flex-direction: column;
 align-items: center;
-gap: 20px; /* Espaciado entre las imágenes */
+gap: 20px;
 padding: 20px;
 }
 
 
 #gallery .large {
-width: 80%; /* Imágenes grandes ocupan el 80% del ancho */
+width: 80%;
 height: auto;
 object-fit: cover;
-border: 1px solid black; /* Borde negro fino */
+border: 1px solid black;
 }
 
 
@@ -77,27 +78,28 @@ width: 80%;
 
 
 #gallery .small-group img {
-width: calc(50% - 10px); /* Imágenes pequeñas ocupan la mitad del grupo */
+width: calc(50% - 10px);
 height: auto;
 object-fit: cover;
-border: 1px solid black; /* Borde negro fino */
+border: 1px solid black;
 }
 
 
+/* Estilos responsivos para pantallas pequeñas */
 @media (max-width: 768px) {
 #gallery .large,
 #gallery .small-group img {
-width: 100%; /* En pantallas pequeñas, todas las imágenes ocupan el ancho completo */
+width: 100%;
 }
 
 
 #about-rux {
-padding: 20px; /* Ajuste menor en pantallas móviles */
+padding: 20px;
 }
 
 
 #gallery .small-group {
-flex-direction: column; /* Las imágenes pequeñas se apilan en pantallas pequeñas */
+flex-direction: column;
 }
 
 
@@ -108,13 +110,14 @@ width: 100%;
 </style>
 </head>
 <body>
+<!-- Encabezado con el logo de Rux -->
 <header>
-<a href="../../index.html" class="logo">RUX</a> <!-- Ahora es un enlace -->
+<a href="../../index.html" class="logo">RUX</a>
 </header>
 
 
 <main>
-<!-- Texto descriptivo -->
+<!-- Sección de información sobre Rux -->
 <section id="about-rux">
 <div>
 <p>Este proyecto presenta el diseño de identidad corporativa para Rux, una marca contemporánea enfocada en soluciones innovadoras para empresas. El diseño combina elementos modernos y profesionales, adaptándose a la evolución del mercado.</p>
@@ -122,7 +125,7 @@ width: 100%;
 </section>
 
 
-<!-- Galería de imágenes -->
+<!-- Galería de imágenes del proyecto Rux -->
 <section id="gallery">
 <!-- Imagen grande -->
 <img src="../../images/rux 1.jpg" alt="Imagen 1 de Rux" class="large">
@@ -152,6 +155,7 @@ width: 100%;
 </main>
 
 
+<!-- Pie de página -->
 <footer>
 <p>&copy; 2025 Suko López. Todos los derechos reservados.</p>
 </footer>
