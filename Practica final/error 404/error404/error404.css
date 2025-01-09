@@ -1,4 +1,4 @@
-/* Global */
+/* Estilo global */
 body {
     font-family: 'Courier Prime', monospace;
     margin: 0;
@@ -9,7 +9,7 @@ body {
     }
     
     
-    /* Cabecera */
+    /* Estilo del encabezado */
     header {
     display: flex;
     justify-content: center;
@@ -20,7 +20,7 @@ body {
     }
     
     
-    /* Logo */
+    /* Estilo del logo */
     .logo {
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
@@ -33,16 +33,16 @@ body {
     
     
     .logo:hover {
-    letter-spacing: 15px; /* Separación de letras al pasar el cursor */
+    letter-spacing: 15px;
     }
     
     
-    /* Error Section */
+    /* Sección de error */
     #error {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh; /* Altura de la página */
+    height: 80vh;
     }
     
     
@@ -62,13 +62,13 @@ body {
     
     /* Estilo para la imagen de error */
     .error-image {
-    width: 200px; /* Ajusta el tamaño según lo necesites */
+    width: 200px;
     height: auto;
     margin-bottom: 20px;
     }
     
     
-    /* Texto de Error */
+    /* Estilo para el texto de error */
     p {
     font-size: 1.2rem;
     color: #333;
@@ -76,6 +76,7 @@ body {
     }
     
     
+    /* Estilo para el botón de regreso */
     .back-button {
     font-family: 'Courier Prime', monospace;
     font-size: 1rem;
@@ -101,13 +102,12 @@ body {
     }
     
     
-    /* Footer */
+    /* Estilo del pie de página */
     footer {
     text-align: center;
     padding: 20px 20px;
     background-color: #f1f1f1;
     color: #000000;
     }
-    
     
     
