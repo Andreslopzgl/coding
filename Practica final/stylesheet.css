@@ -1,4 +1,4 @@
-/* Global */
+/* Configuración global */
 body {
     font-family: 'Courier Prime', monospace;
     margin: 0;
@@ -8,7 +8,7 @@ body {
     }
     
     
-    /* Cabecera */
+    /* Estilos para la cabecera */
     header {
     position: fixed; /* Ancla la cabecera en la parte superior */
     top: 0; /* Asegura que esté pegada a la parte superior */
@@ -24,7 +24,7 @@ body {
     }
     
     
-    /* Logo */
+    /* Estilos para el logo */
     .logo {
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
@@ -42,6 +42,7 @@ body {
     }
     
     
+    /* Estilos para la navegación */
     nav ul {
     display: flex;
     list-style: none;
@@ -66,7 +67,7 @@ body {
     }
     
     
-    /* Animación de subrayado */
+    /* Animación de subrayado en la navegación */
     nav ul li a::after {
     content: '';
     position: absolute;
@@ -90,7 +91,7 @@ body {
     }
     
     
-    /* Home Section */
+    /* Estilos para la sección Home */
     #home {
     display: flex;
     justify-content: space-between;
@@ -108,7 +109,7 @@ body {
     }
     
     
-    /* Columna izquierda */
+    /* Estilos para la columna izquierda de Home */
     .home-left {
     display: flex;
     flex-direction: column;
@@ -132,7 +133,7 @@ body {
     }
     
     
-    /* Columna derecha */
+    /* Estilos para la columna derecha de Home */
     .home-right {
     display: flex;
     flex-direction: column;
@@ -157,7 +158,7 @@ body {
     }
     
     
-    /* Imágenes sin borde negro y con animación al pasar el cursor */
+    /* Estilos para las imágenes en Home */
     .home-image {
     border: none; /* Eliminar borde negro */
     transition: transform 0.3s ease; /* Añadir transición para la animación */
@@ -169,7 +170,7 @@ body {
     }
     
     
-    /* About Section */
+    /* Estilos para la sección About */
     #about {
     background-color: #ffffff;
     color: #000000;
@@ -200,7 +201,7 @@ body {
     }
     
     
-    /* Projects Section */
+    /* Estilos para la sección Projects */
     #projects {
     background-color: #fff;
     color: #000;
@@ -281,7 +282,7 @@ body {
     }
     
     
-    /* Contact Section */
+    /* Estilos para la sección Contact */
     #contact {
     background-color: #f1f1f1;
     color: #333;
@@ -333,7 +334,7 @@ body {
     }
     
     
-    /* Footer */
+    /* Estilos para el footer */
     footer {
     text-align: center;
     padding: 20px 20px;
