@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -10,8 +11,8 @@
 /* Estilo del encabezado */
 header {
 display: flex;
-justify-content: center; /* Centrar contenido horizontalmente */
-align-items: center; /* Centrar contenido verticalmente */
+justify-content: center;
+align-items: center;
 background-color: #ffffff;
 padding: 20px 60px;
 box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
@@ -20,23 +21,23 @@ box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 
 .logo {
 font-family: 'Roboto', sans-serif;
-font-size: 1.5rem; /* Tamaño reducido del título */
-font-weight: bold; /* Peso fuerte */
+font-size: 1.5rem;
+font-weight: bold;
 color: black;
-text-align: center; /* Texto centrado */
-text-decoration: none; /* Quitar subrayado del enlace */
-margin: 0; /* Sin margen extra */
+text-align: center;
+text-decoration: none;
+margin: 0;
 }
 
 
 .logo:hover {
-color: #555; /* Cambia de color al pasar el cursor */
+color: #555;
 }
 
 
-/* Estilo para el texto descriptivo */
+/* Estilo para la sección de información sobre Logos */
 #about-logos {
-padding: 40px 20px; /* Espaciado alrededor del texto */
+padding: 40px 20px;
 max-width: 800px;
 margin: 0 auto;
 text-align: center;
@@ -51,44 +52,46 @@ color: #333;
 }
 
 
-/* Estilo para la galería */
+/* Estilo para la galería de imágenes */
 #gallery {
 display: flex;
-flex-direction: column; /* Imágenes en columna */
+flex-direction: column;
 align-items: center;
-gap: 20px; /* Espaciado entre las imágenes */
+gap: 20px;
 padding: 20px;
 }
 
 
 #gallery img {
-width: 80%; /* Tamaño de las imágenes */
+width: 80%;
 height: auto;
 object-fit: cover;
-border: 1px solid black; /* Borde negro fino */
+border: 1px solid black;
 }
 
 
+/* Estilos responsivos para pantallas pequeñas */
 @media (max-width: 768px) {
 #gallery img {
-width: 100%; /* En pantallas pequeñas, las imágenes ocupan todo el ancho */
+width: 100%;
 }
 
 
 #about-logos {
-padding: 20px; /* Ajuste menor en pantallas móviles */
+padding: 20px;
 }
 }
 </style>
 </head>
 <body>
+<!-- Encabezado con el logo de Logos -->
 <header>
-<a href="../../index.html" class="logo">LOGOS</a> <!-- Título centrado como enlace -->
+<a href="../../index.html" class="logo">LOGOS</a>
 </header>
 
 
 <main>
-<!-- Texto descriptivo -->
+<!-- Sección de información sobre Logos -->
 <section id="about-logos">
 <div>
 <p>Este proyecto presenta el rediseño de logotipos de grandes marcas, explorando nuevos enfoques visuales que conservan la esencia de las marcas, pero aportan una identidad renovada y moderna. Cada logotipo busca combinar funcionalidad y estética para adaptarse a los tiempos actuales.</p>
@@ -96,7 +99,7 @@ padding: 20px; /* Ajuste menor en pantallas móviles */
 </section>
 
 
-<!-- Galería de imágenes -->
+<!-- Galería de imágenes del proyecto Logos -->
 <section id="gallery">
 <img src="../../images/logos 1.jpg" alt="Logotipo 1">
 <img src="../../images/logos 2.jpg" alt="Logotipo 2">
@@ -108,10 +111,9 @@ padding: 20px; /* Ajuste menor en pantallas móviles */
 </main>
 
 
+<!-- Pie de página -->
 <footer>
 <p>&copy; 2025 Suko López. Todos los derechos reservados.</p>
 </footer>
 </body>
 </html>
-
-
